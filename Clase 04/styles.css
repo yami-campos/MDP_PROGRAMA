@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: beige;
+    font-size: 20px;
+}
+.cabecera{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    text-align: left;
+    font-size: 30px;
+}
+
+img{
+    padding-top: 40px;
+}
+
+main{
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+aside{
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+}
