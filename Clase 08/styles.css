@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    height: 97vh;
+    width: 99vw;
+    grid-template-areas: 'abc abc abc'
+        'two three four'
+        'two five five';
+    border: 3px solid orange;
+    background-color: rgb(251, 228, 186);
+    gap: 6px;
+}
+
+.item2,.item3,.item4, .item5{
+    border: 3px solid orange;
+    padding: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.item1 {
+    display: grid;
+    grid-area: abc;
+    padding-left: 20px;
+}
+
+.item2 {
+    grid-area: two;
+}
+.item3 {
+    grid-area: three;
+}
+
+.item4 {
+    grid-area: four;
+}
+
+.text{
+    display: flex;
+    border: 1px solid yellow;
+    background-color: rgb(255, 255, 225);
+    border-radius: 10px;
+    height: 60%;
+    color: red;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
